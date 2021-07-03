@@ -65,22 +65,22 @@
    }
    </script>
 <!-- Get assistance part, the button and social media -->
-<section id="#section1">
-    <div class="section-top">
+<section id="section1">
+    <div class="section-top" id="section-top">
+        <h3 class="lop">Web Development <i class="fas fa-laptop-code"></i></h1>
+        <span><span  class="typing"></span>
         <div class="text-3">
-           <span><span  class="typing"></span>
+            <span><span  class="tvyping"></span>
         
         </div>
         <div class="click">
            
-            <a href="#section2" Get Assistance" class="button"><i class="fas fa-chevron-down"></i></a>
+            <a href="#services" Get Assistance" class="button"><button>Our 
+                services
+            </button></a>
             <div class="footer-menu">
        <div class="media">
-        <ul id="media">
-            <a href="https://twitter.com/NkanduAkim" target="blank"><li><i class="fab fa-twitter-square"></i></li></a>
-            <a href="https://www.facebook.com/profile.php?id=100009176320053" target="blank"><li><i class="fab fa-facebook"></i></li></a>
-            <a href="#" target="blank"><li><i class="fab fa-instagram" ></i></li></a>
-        </ul>
+      
        </div>
     </div>
             </div>
@@ -89,33 +89,44 @@
             </div>
         </div>
     </div>
-</section>
-<section class="client" id="section2">
-<div class="web" id="web">
-    <i class="fab fa-internet-explorer"></i>
-    <h1>Web Development</h1>
-    
-   
-    <p>  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quam asperiores eaque in porro. Amet a provident sunt dolor rerum ipsam deleniti, iste, optio perferendis in, deserunt perspiciatis ut beatae.</p>
-    
-    <a href=""><button>Book Now!</button></a>
-</div>
-</section>
-<section class="picture" id="section3">
-
-</section>
-<section class="dev" id="section2">
-    <div class="web" id="web">
-        <i class="fab fa-internet-explorer"></i>
-        <h1>Who are my clients?</h1>
-        
-        
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quam asperiores eaque in porro. Amet a provident sunt dolor rerum ipsam deleniti, iste, optio perferendis in, deserunt perspiciatis ut beatae.</p> 
+    <div class="top" id="section-top">
+ 
     </div>
 </section>
-<section class="picture1" id="section3">
+<!--  -->
+<!-- services section start -->
+<article>
+    <section class="services" id="services">
+        <div class="max-width">
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        
+                        <div class="text">
+                            <i class="fas fa-laptop-code"></i>Web Development
+                           
+                        </div>
+                       
+                        <p>
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sit, quae similique officia placeat praesentium facilis quibusdam ipsa, voluptatem, nisi sint impedit ex inventore enim voluptates numquam et voluptatibus. Velit?
+                        </p>
+                        <div class="book">
+                            <a href=""><button>Book Now
+                            </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+     
+    </section>
+    
+    <section class="picture" id="section3">
+     
+    </section>
+</article>
 
-</section>
 <section class="create">
    
     <div class="pr">
@@ -213,6 +224,7 @@
 
     </div>
 </section>
+
 <!-- footer section start -->
 <footer>
     <span>Created By <a href="#">P5Design   
@@ -221,14 +233,6 @@
 
 <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
 <!-- <script src="script.js"></script> -->
-
-
-
-
-
-
-
-
 
 
 </body>
@@ -272,7 +276,7 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Hey, Welcome to P5Desgin!", "We Design and develop experiences that make people's live simple!", "Get in Touch"],
+        strings: ["Hey, Welcome to P5Desgin!", "We Design and develop experiences that <br> make people's lives simple!", "Get in Touch"],
         typeSpeed: 80,
         backSpeed: 40,
         loop: true
