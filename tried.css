@@ -31,9 +31,9 @@ html{
     
     color: #d9d9d9;
     text-align: center;
-    margin-left: -40%;
+    margin-left: -20%;
     margin: 16px;
-    margin-top: -110px;
+    margin-top: -130px;
 
 }
 
@@ -41,7 +41,8 @@ html{
 
 #media {
     text-align: center;
-    margin-left: -40%;
+    margin-left: -30%;
+    margin-top: -20px;
 }
 
 /*Setting the background of the header page*/
@@ -67,7 +68,7 @@ html{
 
 .text-3{
     color: rgb(230, 230, 230);
-    padding-top: 150px;
+    padding-top: 90px;
     text-align: center;
     font-size: 25px;
     
@@ -78,20 +79,11 @@ html{
     text-align: center;
     justify-self: unset;
     justify-content: center;
+    margin-top: -10px;
+
     
 }
 
-
-/*Setting the header page*/
-.image{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), center center/cover url(let2.jpg);
-    width: 92%;
-    height: 550px;
-    margin: 50px;
-    margin-right: -20px;
-    margin-right: -813px;
-    height: 90px;   
-}
 
 .hello h1{
     text-align: center;
@@ -124,8 +116,12 @@ html{
 
 }
 
-.header h2{
-    font-size: 35px;
+.header p{
+    animation-name: hello;
+    margin-top: -7px;
+   
+    font-size: 30px;
+    font-family: GillSans,Gill Sans MT,Calibri,sans-serif;
 }
 
 
@@ -138,13 +134,13 @@ html{
 /*Setting the background of the header page*/
 .section-top{
     width: 100%;
-    height: 500px;
+    height: 420px;
     overflow: hidden;
     position: relative;
 
     animation : hello 10s;
-    margin-top: 10px 0;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(5, 5, 5, 0.6)), center center/cover url(let3.jpg);
+  
+    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let13.jfif);
 }
 
 /* working section */
@@ -164,6 +160,10 @@ html{
     font-size: 20px;
 }
 
+sub{
+    color: rgb(255, 255, 255);
+}
+
 
 
 /*Setting the navigation menu*/
@@ -173,9 +173,7 @@ nav ul{
     word-spacing: 50px;
     align-content: space-between;
     background-color: rgb(0, 0, 0);
-    margin-top: -60px;
-   
-    
+    margin-top: -70px;
     
 }
 
@@ -194,7 +192,7 @@ nav ul a{
     color: whitesmoke;
     align-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 20px;
+    margin-top: 0px;
     
 }
 nav a:hobver{
@@ -222,13 +220,7 @@ nav a:hobver{
     100% {color:rgb(39, 63, 65); left:0px; top:0px;}
 
 }
-.header h1{
-   
-    margin-top: 15px;
-    font-size: 25px;
-   
 
-}
 header{
    
     width: 100%;
@@ -264,46 +256,9 @@ header a:hover{
 .close, .open{
     display: none;
 }
-/*donation button*/
-.donate{
-    border: 1px solid whitesmoke;
-    border-radius: 14px;
-    color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 20px;
-    margin-top: -30px;
-    float: right;
-    margin-right: 20px;
-    background: black;
-    transition-property: background;
-    transition-duration: 2s,3s;
-    transition-timing-function: ease-out;
-    margin-right: 50px;
-    width: 75px;
-    
-}
-
-.donate:hover{
-    background-color: rgb(31, 7, 7);
-    color: whitesmoke;
-    
-
-}
 
 
-.bar h2{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 10px;
-    animation-name: ABT;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate; 
-}
+
 
 .button{
     color: whitesmoke;
@@ -311,7 +266,8 @@ header a:hover{
     padding-right: 40px;
     padding-left: 25px;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
+    
 }
 
 .togle{
@@ -321,12 +277,13 @@ header a:hover{
 .click button{
     text-align: center;
     width: 100px;
-    height : 30px; 
+    height : 40px;
+    margin-top:25px ;
 }
 
 .click{
     text-align: center;
-    padding-top: 15px;
+    padding-top: 30px;
     
 }
 
@@ -359,53 +316,11 @@ header nav.active{
     right: 0;
 }
 
-.copy i{
-    color: whitesmoke;
-     
-}
-.right{
-    text-align: center;
-    
-}
-.right i{
-    color: whitesmoke;
-    
-    font-size: 20px;
-    margin-top: 20px;
-    
-}
-
-.copy{
-    height: 56px;
-    width: 100%;
-    border-bottom: 1px solid rgb(77, 75, 75);
-    border: 1px solid rgb(100, 100, 100);
-   
-   
-    
-   
-}
-
-.azert{
-    width: 100%;
-   
-   margin-top: -20px;
-    color: rgb(0, 0, 0);
-    animation : hello 10s;
-    font-size: 30px;
-  margin-left: 30px;
-   margin-bottom: 10px;
-   background-color: white;
-
-}
 .client{
     width: 100%;
-  
-    
     color: rgb(0, 0, 0);
     animation : hello 10s;
-    padding-top: 80px;
-  
+    padding-top: 100px;
    margin-bottom: 20px;
    padding-bottom: 40px;
    margin-top: -70px;
@@ -414,59 +329,53 @@ header nav.active{
 
 .dev{
     width: 100%;
-  
-    
     color: rgb(0, 0, 0);
     animation : hello 10s;
    padding-top: 10px;
-  
    margin-bottom: 10px;
     
 }
 .web h1{
-    font-size: 35px;
+    font-size: 40px;
     float: left;
     margin-top: -5px;
-    padding-left: 20px 
+    padding-left: 20px;
+    
    
 }
 
 .web{
-   
     width: 100%;
-    
     justify-content: center;
-   
     text-align: center;
-
-
     margin-left: 20px;
     justify-content: center;
     width: 100%;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
-   margin: 20px;
-    
+    margin: 20px;
     backdrop-filter: blur(20px);
-   
     position: relative;
     z-index: 999;
    
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin-bottom: 0px;
 
 }
 
 .web p{
-    text-align: justify;
-    
-    font-size: 17px;
+ 
+    font-size: 15px;
     padding-right: 27%;
     margin-left: 20px;
-   
-   
+    width: 70%;
 }
+
+    
+   
+   
+
 
 #web i{
     text-align: center;
@@ -555,7 +464,7 @@ header nav.active{
 
 @media screen and (min-width:220px) and (max-width:1100px){
     .web h1{
-        font-size: 27px;
+        font-size: 32px;
         margin-left: 3px;
     }
 
@@ -808,6 +717,7 @@ padding-right: 20px;
     .open{
         display: flex;
         justify-content: center;
+        padding-top: 15px;
     }
 
     #phone i{
@@ -840,26 +750,17 @@ padding-right: 20px;
         
     }
 
-    .temoignage{
-        flex-wrap: wrap;
+    .header p{
+        color: rgb(255, 2, 2);
+        margin-top: -5px;
+        margin-left: 90%;
+        font-size: 25px;
+        font-family: GillSans,Gill Sans MT,Calibri,sans-serif;
     }
+    
 
-    .fun{
-        margin-top:200px;
-        width: 55%;
-        background-color: black;
-        height: auto;
-        margin-bottom:50px;
-        border-bottom: 1px wheat solid;
-        padding-left: 30px;
-        border-right: 1px wheat solid;
-        margin-right: 45px;
-    }
 
-    .gmaill p{
-        margin-left: -25%;
-        margin-top: 30px;
-    }
+
 
 
 }
