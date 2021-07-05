@@ -52,7 +52,7 @@ html{
     position: relative;
 
     animation : hello 10s;
-    margin-top: 10px 0;
+
     background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let31.jpg);
 }
 .lop{
@@ -153,7 +153,7 @@ html{
 /*Setting the background of the header page*/
 .section-top{
     box-shadow: -20px 18px 20px   rgba(255, 13, 13, 0.2);
-    margin-top: 1.5pc;
+ 
    
     margin-left: 30%;
     justify-content: center;
