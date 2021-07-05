@@ -53,7 +53,7 @@ html{
 
     animation : hello 10s;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(255, 4, 4, 0.493)), center center/cover url(let31.jpg);
+    background: linear-gradient(rgba(26, 1, 133, 0.788),rgba(247, 4, 4, 0.493));
 }
 .lop{
     margin-top: 120px;
@@ -362,22 +362,7 @@ header a:hover{
 header nav.active{
     right: 0;
 }
-.book{
-    width: 100%; 
-   
-}
-.book button{
-    background-color :crimson;
-    width: 300px;
-    height: 40px;
-    border:1px solid rgb(92, 92, 92);
-    color: whitesmoke;
-    cursor: pointer;
-    font-size: 16px;
-  
-   
-}
-.client{
+client{
     width: 100%;
     color: rgb(0, 0, 0);
     animation : hello 10s;
@@ -1079,7 +1064,7 @@ footer span a:hover {
 
     #section1{
         height: 440px;
-        background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(255, 4, 4, 0.493)), center center/cover url(let31.jpg);
+       
     }
 
     /*Setting the background of the header page*/
@@ -1337,15 +1322,17 @@ footer{
 
 /* services section styling */
 .service{
+    border: 1px;
     justify-content: center;
     width: 100%;
     height: auto;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(rgba(85, 2, 2, 0.6),rgba(14, 1, 1, 0.6));
+    background: linear-gradient(rgba(233, 66, 66, 0.6),rgba(7, 0, 12, 0.6));
     animation : hello 10s;
     margin-top: 20px 0;
     background-color: black;
+    box-shadow: -70px -60px -90px   rgba(236, 232, 232, 0.2);
     
    
 }
@@ -1362,7 +1349,7 @@ footer{
     text-align: center;
     font-size: 20px;
     padding-top: 30px;
-    background: linear-gradient(rgba(44, 1, 1, 0.6),rgba(56, 2, 2, 0.6));
+    background: linear-gradient(rgba(10, 1, 44, 0.6),rgba(56, 2, 2, 0.6));
 }
 
 .ment button{
