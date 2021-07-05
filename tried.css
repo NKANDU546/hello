@@ -50,10 +50,10 @@ html{
     height: 600px;
     overflow: hidden;
     position: relative;
-  
+    margin-top: 30px;
     animation : hello 10s;
     margin-top: 10px 0;
-    background: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let31.jpg);
 }
 .lop{
     margin-top: 120px;
@@ -166,7 +166,7 @@ html{
     animation : hello 10s;
     border-radius: 50%;
     color: rgb(255, 2, 2);
-    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let13.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let31.jpg);
 }
 
 .section-top i{
@@ -1076,6 +1076,7 @@ footer span a:hover {
 
     #section1{
         height: 440px;
+        background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let31.jpg);
     }
 
     /*Setting the background of the header page*/
@@ -1091,7 +1092,7 @@ footer span a:hover {
 
     animation : hello 10s;
     border-radius: 80%;
-    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let13.jfif);
+    background: linear-gradient(rgba(0, 0, 0, 0.788),rgba(0, 0, 0, 0.493)), center center/cover url(let31.jpg);
 }
         .container:after{
         content: '';
