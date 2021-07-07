@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+/*Setting the body page*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -152,11 +156,12 @@ nav ul a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 10px;
     padding-top: 30px;
+    position: sticky;
     
 }
 nav a:hogver{
     
-    background: rgb(255, 255, 255);
+    background: hsl(0, 0%, 100%)
     width: 100px;
     color: whitesmoke;
 }
@@ -321,13 +326,14 @@ header nav.active{
         height: 100%;
         width: 100%;
         background-color: rgb(7, 2, 29);
-        
         padding-top: 130px;
-        overflow-y: hidden;
+        overflow:hidden;
         transition: all .5s;
        
         
     }
+
+   
 
 
    
@@ -523,7 +529,7 @@ footer span a:hover {
     width: 100%;
     height:550px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), center center/cover url(let35.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), center center/cover url(let38.jpg);
     margin-top: 20px 0;
     background-color: black;
     box-shadow: -70px -60px -90px   rgba(58, 3, 255, 0.2);
@@ -786,7 +792,23 @@ footer span a:hover {
     margin-bottom: 20px;
     padding-top: 15px;
 }
+
+
+
+/* ghghgg */
+.goal{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    animation : hello 10s;
+    margin-top: 10px 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), center center/cover url(let38.jpg);
+}
+
 @media screen and (min-width:220px) and (max-width:1100px){
+
+    
 .banner-text h2 {
         text-align: center;
         color: #fff;
@@ -913,3 +935,6 @@ footer span a:hover {
 .studio p{
    
 }
+
+/*  */
+
