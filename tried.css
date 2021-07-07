@@ -221,11 +221,10 @@ header nav.active{
         width: 900%;
         height: auto;
         color: rgb(255, 255, 255);
-        
         padding-left: 40px;
         padding-right: 40px;
         background-color: rgb(0, 0, 20);
-        margin-left: -7%;
+       margin-left: 20px;
         margin-top: 14px;
         margin-bottom: 20px;
        
@@ -235,6 +234,7 @@ header nav.active{
         flex-wrap: wrap;
         background-color:rgb(0, 0, 26) ;
         margin-left: 8%;
+        margin-top: 90px;
         
     }
 
@@ -265,7 +265,7 @@ header nav.active{
     }
 
     #shit{
-        margin-left: 5px;
+        margin-left: 25px;
         width: 100%;
         margin-top: -10px;
         padding-right: 10px;
@@ -426,33 +426,25 @@ footer span a:hover {
         filter: blur(50px);
         z-index: -1;
     }
-    .contact-box{
-        background-color: rgb(13, 5, 36);
-        width: fit-content;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+ 
     
-        box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    }
-    
-    .left{
-       
-        background-size: cover;
-        height: 100%;
-    }
+ 
     
     .right{
         padding: 25px 40px;
+       
+        height: auto;
+       
       
     }
+
+   
+
 
 
   
     .field{
-        width: 210%;
+        width: 150%;
         border: 2px solid rgba(124, 96, 248, 0);
         outline: none;
        background-color: rgb(247, 245, 253);
@@ -506,20 +498,21 @@ footer span a:hover {
     
     padding-left: 40px;
     padding-right: 40px;
-    background-color: rgb(0, 0, 20);
-    margin-left: -7%;
+    background-color: rgb(0, 0, 29);
+    margin-left: 7%;
     margin-top: 14px;
    
 }
 
 .container{
     margin-top: 0px;
-    background-color: ;
+    
 }
 
 .text{
     font-size: 25px;
 }
+
 
 
 /* services section styling */
@@ -598,6 +591,7 @@ footer span a:hover {
 	width: 100%;
 	position: absolute;
 	z-index: 1;
+    height: auto;
    
    
    
@@ -626,7 +620,7 @@ footer span a:hover {
 .animation-area {
 	background: linear-gradient(to left, #1b0029, #09011d);
 	width: 100%;
-	height: 550px;
+	height: auto;
     margin-top: -20px;
     width: 100%;
     height: 600px;
@@ -634,6 +628,7 @@ footer span a:hover {
     position: relative;
     animation : hello 10s;
     margin-top: 10px 0;
+
 
 }
 .box-area {
@@ -805,16 +800,105 @@ footer span a:hover {
     margin-top: 10px 0;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), center center/cover url(let38.jpg);
 }
+/* about page *//* about us */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.this img{
+
+    margin: 20px;
+ 
+    width: 100%;
+    height: 400px;
+
+    position: relative;
+    animation : hello 10s;
+    margin-top: -30px;
+
+}
+
+#about{
+    padding-top: 130px;
+    display: flex;
+    min-height: 800px;
+
+}
+.this{
+    width: 50%;
+    height: auto;
+    margin-top: 25px;
+   
+
+
+}
+
+.us{
+    font-size: 30px;
+
+}
+
+.that{
+    width: 50%;
+    height: 700px;
+    margin-top: 25px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+.that p{
+ 
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+
+
 
 @media screen and (min-width:220px) and (max-width:1100px){
-
+    .that p{
+        font-size: 15px;
+        position: relative;
+        z-index: 9999;
+        overflow: hidden;
     
-.banner-text h2 {
-        text-align: center;
-        color: #fff;
-        font-size: 50px;
-        margin-top: 25%;
     }
+    .that{
+        width: 100%;
+        
+        margin-top: 25px;
+        margin-bottom: 130px;
+        padding-bottom: 130px;
+    }
+    #about{
+        padding-top: 60px;
+        flex-wrap: wrap;
+        margin-bottom: 130px;
+        position: relative;
+        overflow: hidden;
+        z-index: 9999;
+       
+    }
+
+
+.this {
+   
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+}
+
+.this img{
+    margin: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+
+
 .position{
     margin-top: -26px;
 }
@@ -858,16 +942,7 @@ footer span a:hover {
         filter: blur(50px);
         z-index: -1;
     }
-    .contact-box{
-        width: 240%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background-color: rgb(13, 5, 36);
-        box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
-    }
+
     
   
     .right{
@@ -876,7 +951,7 @@ footer span a:hover {
     }
     
     .field{
-        width: 230%;
+        width: 110%;
         border: 2px solid rgba(122, 100, 248, 0);
         outline: none;
         background-color: rgb(235, 233, 255);
@@ -922,19 +997,14 @@ footer span a:hover {
 
 /* about */
 
-.about{
-
-    width: 100%;
-    height: 600px;
-    ;
-    animation : hello 10s;
-    margin-top: 10px 0;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), center center/cover url(let27.jpg);
-}
-
 .studio p{
    
 }
 
-/*  */
-
+/* about us */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
