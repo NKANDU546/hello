@@ -234,7 +234,7 @@ header nav.active{
         flex-wrap: wrap;
         background-color:rgb(0, 0, 26) ;
         margin-left: 8%;
-        margin-top: 90px;
+        margin-top: 20px;
         
     }
 
@@ -282,9 +282,11 @@ header nav.active{
         flex-wrap: wrap;
         flex-direction: column;
     }
- 
+
+
     header nav ul{
         display: block;
+
 
     }
 
@@ -293,6 +295,7 @@ header nav.active{
         cursor: pointer;
         transition: all .6s;
         background-color: rgb(1, 1, 26);
+        display: block;
         
         
     }
@@ -304,19 +307,24 @@ header nav.active{
         
     }
 
+    
+
+ 
+
     .open{
-        display: flex;
+        display: block;
         justify-content: center;
         padding-top: 5px;
+        opacity: 9;
         
     }
 
     #phone i{
         margin-top: -8px;
        margin-left: -65%;
-       
-       
-
+       display: block;
+      
+    
     }
 
     .barre{
@@ -324,15 +332,15 @@ header nav.active{
         top: 0px;
         left: 0px;
         height: 100%;
-        width: 100%;
-        background-color: rgb(7, 2, 29);
+        width: 0px;
+        background-color: rgb(6, 0, 29);
+        z-index: 1;
         padding-top: 130px;
-        overflow:hidden;
-        transition: all .5s;
-       
-        
+        overflow-x: hidden;
+        transition: all .5s;   
     }
 
+   
    
 
 
@@ -360,8 +368,10 @@ header nav.active{
         color: rgb(255, 175, 175);
         display: block;
         margin-left: -8%;
-        
+        display: block;
     }
+
+   
     
 
 }
@@ -639,6 +649,8 @@ footer span a:hover {
 	height: 100%;
 	overflow: hidden;
 }
+
+
 .box-area li {
 	position: absolute;
 	display: block;
@@ -814,7 +826,6 @@ footer span a:hover {
  
     width: 100%;
     height: 400px;
-
     position: relative;
     animation : hello 10s;
     margin-top: -30px;
@@ -822,9 +833,10 @@ footer span a:hover {
 }
 
 #about{
-    padding-top: 130px;
+    padding-top: 30px;
     display: flex;
-    min-height: 800px;
+    height: auto;
+  
 
 }
 .this{
@@ -837,22 +849,23 @@ footer span a:hover {
 }
 
 .us{
-    font-size: 30px;
+    font-size: 22px;
 
 }
 
 .that{
     width: 50%;
-    height: 700px;
+    height: auto;
     margin-top: 25px;
     padding-left: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .that p{
  
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    padding-top: 55px;
 }
 
 
@@ -861,25 +874,21 @@ footer span a:hover {
 @media screen and (min-width:220px) and (max-width:1100px){
     .that p{
         font-size: 15px;
-        position: relative;
-        z-index: 9999;
-        overflow: hidden;
-    
+        padding-top: 40px;
+   
     }
     .that{
         width: 100%;
         
         margin-top: 25px;
-        margin-bottom: 130px;
-        padding-bottom: 130px;
+   
     }
     #about{
-        padding-top: 60px;
+        padding-top: 5px;
         flex-wrap: wrap;
-        margin-bottom: 130px;
-        position: relative;
-        overflow: hidden;
-        z-index: 9999;
+       
+   
+       
        
     }
 
@@ -887,7 +896,7 @@ footer span a:hover {
 .this {
    
     width: 100%;
-    height: 400px;
+    height: auto;
     justify-content: center;
 }
 
@@ -1002,9 +1011,4 @@ footer span a:hover {
 }
 
 /* about us */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans",sans-serif;
-    box-sizing: border-box;
-}
+
