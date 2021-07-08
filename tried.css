@@ -836,6 +836,7 @@ footer span a:hover {
     padding-top: 30px;
     display: flex;
     height: auto;
+    background-color: rgb(0, 0, 43);
   
 
 }
@@ -863,15 +864,125 @@ footer span a:hover {
 
 .that p{
  
-    margin-right: 30px;
+    margin-right: 50px;
     font-size: 18px;
     padding-top: 55px;
 }
 
+/* store */
+hr{
+    width: 90%;
+    color: red;
+    background-color: red;
+   }
+   .store p{
+       margin-bottom: 20px;
+       margin-top: 10px;
+   }
+
+   .title{
+       font-size: 30px;
+       color: red;
+   }
 
 
+
+     
+   .designed{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 33.3%;
+    height: auto;
+    background: rgb(0, 0, 37);
+    border-radius: 8px;
+    padding: 27px;
+
+}
+.dev{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 33.3%;
+    height: auto;
+    background: rgb(0, 0, 37);
+    border-radius: 8px;
+    padding: 27px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.store{
+    padding-top: 10px;
+    margin-bottom: 25px;
+    margin: 15px;
+    display: flex;
+}
+
+.store button{
+    width: 120px;
+    color: white;
+    background-color: brown;
+    border: 1px solid red;
+    height: 30px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+
+ 
 
 @media screen and (min-width:220px) and (max-width:1100px){
+    hr{
+        width: 90%;
+        color: red;
+        background-color: red;
+       }
+       .store p{
+           margin-bottom: 20px;
+           margin-top: 10px;
+       }
+    
+       .title{
+           font-size: 30px;
+           color: red;
+       }
+    
+    
+    
+         
+       .designed{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 97%;
+        height: auto;
+        background: rgb(0, 0, 37);
+        border-radius: 8px;
+        padding: 27px;
+       
+    
+    }
+    .dev{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 95%;
+        height: auto;
+        background: rgb(0, 0, 37);
+        border-radius: 8px;
+        padding: 27px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-top: 20px;
+    
+    }
+    .store{
+        padding-top: 10px;
+        margin-bottom: 25px;
+        margin: 15px;
+        flex-wrap: wrap;
+        
+    }
+
+   
+  
     footer{
         font-size: 12px;
         margin-left: -5px;
@@ -967,7 +1078,7 @@ footer span a:hover {
     }
     
     .field{
-        width: 110%;
+        width: 105%;
         border: 2px solid rgba(122, 100, 248, 0);
         outline: none;
         background-color: rgb(235, 233, 255);
