@@ -880,8 +880,10 @@ footer span a:hover {
     height: 30px;
     cursor: pointer;
     position: relative;
-    z-index: 9999;
-    overflow-y: hidden;
+    overflow: hidden;
+    z-index: 1;
+
+   
     
 }
 hr{
@@ -934,15 +936,7 @@ hr{
 }
 
 
-.store button{
-    width: 120px;
-    color: white;
-    background-color: brown;
-    border: 1px solid brown;
-    height: 30px;
-    cursor: pointer;
-    
-}
+
 
  
 
