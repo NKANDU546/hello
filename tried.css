@@ -613,7 +613,7 @@ footer span a:hover {
 .banner-text ul li {
 	display: inline-block;
 	padding: 40px 15px;
-	text-transform: uppercase;
+	
 	color: rgb(239, 231, 252);
 	font-size: 20px;
 }
@@ -633,6 +633,8 @@ footer span a:hover {
     animation-direction: alternate;
     animation-name: ABT;
 }
+
+
 @keyframes ABT {
     0%   {color:rgb(169, 145, 255); left:0px; top:0px;}
     25%  {color:rgb(143, 137, 255); left:200px; top:0px;}
@@ -1064,7 +1066,7 @@ hr{
 	color: #fff;
 	font-size: 40px;
 	margin-top: 20%;
-    padding-top: 75px;
+    padding-top: 45px;
 }
   
 
