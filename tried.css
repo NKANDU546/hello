@@ -533,8 +533,6 @@ footer span a:hover {
 .hey i{
     padding-top:40px;
 
-    margin-top: -20px;
-
 }
 .shit{
     width: 40%;
@@ -667,6 +665,7 @@ footer span a:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-name: ABT;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
