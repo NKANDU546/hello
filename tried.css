@@ -1050,6 +1050,10 @@ hr{
     .that p{
         font-size: 15px;
         padding-top: 40px;
+        margin-right: -10px ;
+        margin-bottom: 20px;
+        
+      
    
     }
     .that{
@@ -1059,9 +1063,12 @@ hr{
        
         margin: 10px;
         background-color: #0c0b35;
-        padding: 22px;
+        padding: 20px;
         margin-right: 20px;
    
+    }
+    .sec{
+        margin-top: -40px;
     }
     #about{
         padding-top: 5px;
@@ -1194,4 +1201,3 @@ hr{
 }
 
 /* about us */
-
