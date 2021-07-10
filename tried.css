@@ -1025,9 +1025,12 @@ hr{
         background: rgb(0, 0, 37);
         border-radius: 8px;
         padding: 27px;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-top: 20px;
-        margin: 15px;
+        padding-right: 10px;
+        margin-right: 10px;
+
+       
     
     }
     .store{
