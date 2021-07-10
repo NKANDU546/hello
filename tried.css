@@ -1067,10 +1067,7 @@ hr{
         padding-top: 5px;
         flex-wrap: wrap;
         flex-direction: column-reverse;
-       padding: 20px;
-   
-       
-       
+       padding: 14px;
     }
 
  
@@ -1088,8 +1085,7 @@ hr{
     height: 400px;
     margin-left: 5px;
     margin-top: -20px;
-    padding: 22px;
-
+   
 }
 
 
