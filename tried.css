@@ -319,7 +319,8 @@ header nav.active{
     }
 
     #close{
-        margin-top: 10px;
+      
+        text-align: center;
     }
 
     .bar{
@@ -983,7 +984,7 @@ hr{
 
  
 
-@media screen and (min-width:220px) and (max-width:1100px){
+@media screen and (min-width:200px) and (max-width:1100px){
   
     .right h2{
         width: 100%;
@@ -1194,6 +1195,26 @@ hr{
         background-color: #fff;
     }
 
+    .let{
+        margin-left: 16%;
+        margin-top: -7pc;
+      
+     }
+
+     /* about us */
+     #feed{
+    display: none;
+    width: 50%;
+    height: 70px;
+    background-color: rgb(0, 0, 51);
+   
+    margin-top: 30px;
+    margin-left: -10pc;
+    margin-bottom: -65px;
+
+}
+
+
 }
 
 
@@ -1204,4 +1225,67 @@ hr{
 }
 
 /* about us */
+#feed{
+    display: none;
+    width: 50%;
+    height: 70px;
+    background-color: rgb(0, 0, 51);
+   
+    margin-top: 30px;
+    margin-left: 13pc;
+    margin-bottom: -65px;
 
+}
+
+#donn{
+    color: red;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 50%;
+    margin: 20px;
+    margin-left: 10pc;  
+}
+
+.back{
+    display: flex;
+    padding: 10px;
+}
+
+.let{
+   margin-left: 30%;
+   margin-top: -7pc;
+ 
+}
+
+#donn p{
+    font-size: 10px;
+    color: rgb(235, 219, 255);
+
+}
+.sub-title{
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+#form{
+    display: flex;
+    
+}
+
+.les{
+    width:90%;
+    height: auto; 
+}
+
+#radio{
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    cursor: pointer;
+    margin-top: px;
+    font-size: 20px;
+}
+
+form p{
+    margin-left: 34px;
+}
