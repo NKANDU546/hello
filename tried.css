@@ -345,7 +345,7 @@ header nav.active{
         margin-top: -8px;
        display: block;
        font-size: 25px;
-      margin-left: -25pc;
+      margin-left: -14pc;
       
     }
 
@@ -366,7 +366,7 @@ header nav.active{
         margin-top: -1pc;
         color: rgb(255, 2, 2);
         
-        margin-left: 76%;
+        margin-left: 70%;
         font-size: 25px;
         font-family: GillSans,Gill Sans MT,Calibri,sans-serif;
     }
