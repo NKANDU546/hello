@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-
+<style>
+  
+</style>
 <header>
         <div class="bar">
         <div class="design">
@@ -31,13 +33,14 @@
                     <div id="phone" class="open" onclick="ouvrir()"><i class="fas fa-bars"></i></div>
                     <div id="mobile" class="barre">
                     <div class="head">
-                        <a class="active" href="index.php">Home</a>
+                        <a class="active" href="index.html">Home</a>
                       
                      
-                      <a href="store.html">Store </a>
+                      <a href="store.html">What's New</a>
+                      <a href="store.html">Store</a>
                       
                       <a href="aboutus.html">About</a>
-                      <a href="#hey">Contact</a>
+                     
                       <a href="#" class="close" id="close"  onclick="fermer()"><i class="fas fa-times"></i></a>
                       
             
@@ -67,7 +70,7 @@
     </script>
 
 </header>
-<section>
+<section class="bod">
 	<div class="animation-area" >
 		<ul class="box-area">
             <div class="banner-text">
@@ -107,9 +110,10 @@
     
 <section class="service" id="services">
 <div class="ment">
- <h2>Web development</h2>
- 
- <p>Lorem ipsum, Necessitatibus aut saepe reprehenderit temporibus libero doloribus, nam similique ea ducimus.</p>
+ <h2>Web Design</h2>
+
+ <p>Design is everything your customers interact with. Just remember, you only have one chance to make a first impression.
+     P5Design offers you good web services to provide your business.</p>
  <div class="carre">
     <i class="fas fa-laptop-code"><br> <p>Web Design</p></i><br>
     <a href="store.html"><button>Show Details&#10145;&#65039</button></a>
@@ -146,11 +150,11 @@
 			
 			<div class="right">
 				<h2>Contact Us</h2>
-			<form action="email.php" method="get">
+			<form action="email.php" method="post">
                 <input type="text" class="field" placeholder="Your Name" name="nom">
 				<input type="text" class="field" placeholder="Your Email" name="email">
-				<input type="text" class="field" placeholder="Phone"  name="phone">
-				<textarea placeholder="Message" class="field"  name="message"></textarea>
+				<input type="text" class="field" placeholder="Phone">
+				<textarea placeholder="Message" class="field"></textarea>
 				<input type="submit" name="submit" id="submit" class="submit">
 
              </form>
@@ -191,29 +195,29 @@
                                     </div>
                                 </div>
                             </div>
-                           
                             <div class="row">
                                 <i class="fas fa-envelope"></i>
                                 <div class="info">
                                     <div class="head">
                                         Email
                                     </div>
-                                  
-                                  <div class="sub-title">
-                                    akim@p5design.ac.za
+                                    <div class="sub-title">
+                                       akim@p5design.ac.za
                                     </div>
                                 </div>
-                               </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div> 
+
+    
+    
+
+    </div>
 </section>
- 
-        </section>
+
 <!-- footer section start -->
 <footer>Made with
     <span class="footer__heart">💜</span>
@@ -302,18 +306,8 @@ $(document).ready(function () {
         }
     });
 });
-function feedback(){
-    var x = document.getElementById("feed");
-    if(x.style.display=="flex"){
-           x.style.display="";
-       }
-       else{
-           x.style.display="flex";
-       }
-
-   }
 </script>
 
 
 </html>
-<!-- php code -->
+
